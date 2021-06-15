@@ -14,6 +14,9 @@
 		22DFB7CD267934C60012AB41 /* woodland.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22DFB7CB267934C60012AB41 /* woodland.xcdatamodeld */; };
 		22DFB7CF267934CA0012AB41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DFB7CE267934CA0012AB41 /* Assets.xcassets */; };
 		22DFB7D2267934CA0012AB41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DFB7D0267934CA0012AB41 /* LaunchScreen.storyboard */; };
+		22DFB7DA267939780012AB41 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFB7D9267939780012AB41 /* HomePageViewController.swift */; };
+		22DFB7DC26793AB00012AB41 /* InfoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFB7DB26793AB00012AB41 /* InfoPageViewController.swift */; };
+		22DFB7DE26793CE40012AB41 /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFB7DD26793CE40012AB41 /* DisclaimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		22DFB7CE267934CA0012AB41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22DFB7D1267934CA0012AB41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22DFB7D3267934CA0012AB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DFB7D9267939780012AB41 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		22DFB7DB26793AB00012AB41 /* InfoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPageViewController.swift; sourceTree = "<group>"; };
+		22DFB7DD26793CE40012AB41 /* DisclaimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				22DFB7D0267934CA0012AB41 /* LaunchScreen.storyboard */,
 				22DFB7D3267934CA0012AB41 /* Info.plist */,
 				22DFB7CB267934C60012AB41 /* woodland.xcdatamodeld */,
+				22DFB7D9267939780012AB41 /* HomePageViewController.swift */,
+				22DFB7DB26793AB00012AB41 /* InfoPageViewController.swift */,
+				22DFB7DD26793CE40012AB41 /* DisclaimerViewController.swift */,
 			);
 			path = woodland;
 			sourceTree = "<group>";
@@ -142,7 +151,10 @@
 			files = (
 				22DFB7C7267934C60012AB41 /* ViewController.swift in Sources */,
 				22DFB7CD267934C60012AB41 /* woodland.xcdatamodeld in Sources */,
+				22DFB7DE26793CE40012AB41 /* DisclaimerViewController.swift in Sources */,
 				22DFB7C3267934C60012AB41 /* AppDelegate.swift in Sources */,
+				22DFB7DC26793AB00012AB41 /* InfoPageViewController.swift in Sources */,
+				22DFB7DA267939780012AB41 /* HomePageViewController.swift in Sources */,
 				22DFB7C5267934C60012AB41 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
