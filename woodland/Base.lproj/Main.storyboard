@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WOj-xf-QMR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -16,10 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inspirational Quote" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBg-W4-klj">
-                                <rect key="frame" x="135" y="761" width="144" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inspirational Quote" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBg-W4-klj">
+                                <rect key="frame" x="20" y="722" width="374" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.071671061219999999" green="0.12043400849999999" blue="0.24707266689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -28,8 +28,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6rO-v5-GPk">
-                                <rect key="frame" x="190" y="790" width="34" height="30"/>
+                                <rect key="frame" x="188" y="790" width="38" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Start">
                                     <color key="titleColor" red="0.047711513939999999" green="0.12635400890000001" blue="0.086269713940000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -38,9 +39,9 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="a natural place to grow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewQ-Y9-1ub">
-                                <rect key="frame" x="121" y="514" width="173" height="21"/>
+                                <rect key="frame" x="118" y="494" width="178" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <color key="textColor" red="0.066349387168884277" green="0.1249617412686348" blue="0.24591171741485596" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -48,6 +49,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.78431372549019607" green="0.77647058823529413" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="inspirationalQuote" destination="iBg-W4-klj" id="yod-OF-J9X"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -66,7 +70,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="49"/>
                                 <state key="normal" title="⌂">
-                                    <color key="titleColor" red="0.047711513939999999" green="0.12635400890000001" blue="0.086269713940000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" red="0.047058823529411764" green="0.12549019607843137" blue="0.086274509803921567" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <segue destination="ACJ-aR-oob" kind="show" id="7Sf-TV-09k"/>
@@ -87,7 +91,54 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G1n-Kk-5lW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="338" y="763"/>
+            <point key="canvasLocation" x="96" y="763"/>
+        </scene>
+        <!--Self Quizzes View Controller-->
+        <scene sceneID="jWi-sb-qcE">
+            <objects>
+                <viewController id="GPW-bg-Wnb" customClass="SelfQuizzesViewController" customModule="woodland" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jix-l1-QuA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIv-ac-ZH6">
+                                <rect key="frame" x="37" y="754" width="39" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="⚠">
+                                    <color key="titleColor" red="0.047058823529411764" green="0.12549019607843137" blue="0.086274509803921567" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="372-sK-4OR" kind="show" id="qil-2B-fy9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xqc-WO-dcE">
+                                <rect key="frame" x="321" y="744" width="60" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="⌂">
+                                    <color key="titleColor" red="0.047058823529411764" green="0.12549019607843137" blue="0.086274509803921567" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ACJ-aR-oob" kind="show" id="A53-ea-8e7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Self Quizzes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQn-qk-pOA">
+                                <rect key="frame" x="112" y="20" width="191" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Qjo-rR-Vam"/>
+                        <color key="backgroundColor" red="0.78431372549019607" green="0.78057384490000004" blue="0.66831833119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EcL-ab-tP0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p7e-d0-reS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857.97101449275374" y="762.72321428571422"/>
         </scene>
         <!--ToDo Accomplishments View Controller-->
         <scene sceneID="lm2-90-sSJ">
@@ -123,7 +174,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NvB-9a-W5J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1309" y="763"/>
+            <point key="canvasLocation" x="1591" y="763"/>
         </scene>
         <!--Disclaimer View Controller-->
         <scene sceneID="bVJ-5R-OK2">
@@ -195,17 +246,6 @@
                                 <color key="textColor" red="0.73180674540000001" green="0.66765513489999995" blue="0.57250530740000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X95-J8-Ckf">
-                                <rect key="frame" x="58" y="652" width="287" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.69800421729999995" green="0.77819114919999999" blue="0.72184292920000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="General Tips">
-                                    <color key="titleColor" red="0.047711513939999999" green="0.12635400890000001" blue="0.086269713940000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="sFs-m3-Blb" kind="show" id="Mm7-OO-mUQ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNF-Yh-oMZ">
                                 <rect key="frame" x="58" y="729" width="287" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -229,7 +269,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sx-vV-q4F">
-                                <rect key="frame" x="58" y="593" width="287" height="30"/>
+                                <rect key="frame" x="58" y="574" width="287" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.69800421729999995" green="0.77819114919999999" blue="0.72184292920000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Information">
@@ -237,6 +277,28 @@
                                 </state>
                                 <connections>
                                     <segue destination="7YM-ed-Nns" kind="show" id="BgV-HQ-TSe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJW-0c-S8h">
+                                <rect key="frame" x="58" y="679" width="287" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.68359887600000002" green="0.78069299459999997" blue="0.71468895669999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Self Quizzes">
+                                    <color key="titleColor" red="0.047058823529411764" green="0.12549019607843137" blue="0.086274509803921567" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="GPW-bg-Wnb" kind="show" id="6WC-mS-ZCE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X95-J8-Ckf">
+                                <rect key="frame" x="58" y="627" width="287" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.69800421729999995" green="0.77819114919999999" blue="0.72184292920000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="General Tips">
+                                    <color key="titleColor" red="0.047058823529411764" green="0.12549019607843137" blue="0.086274509803921567" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sFs-m3-Blb" kind="show" id="Mm7-OO-mUQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -401,22 +463,26 @@
                                 <color key="textColor" red="0.066349387169999996" green="0.1249617413" blue="0.24591171740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4u-VB-OsH">
-                                <rect key="frame" x="20" y="96" width="188" height="341"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4u-VB-OsH">
+                                <rect key="frame" x="20" y="96" width="208" height="549"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
+                                <string key="text">Depression is different from usual mood fluctuation and normal emotional responses in normal life. It is characterized by repeated depressive periods. During these times, people can be depressed, losing interest, and have reduced energy for at least 2 weeks. Depending on the symptoms, an episode can be characterized as mild, moderate, or severe. If you feel as if you have depression, even if it is mild, reach out to a resource. Without proper treatment, symptoms can get worse.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.066349387169999996" green="0.1249617413" blue="0.24591171740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0o-eI-oGH">
-                                <rect key="frame" x="20" y="349" width="374" height="431"/>
+                                <rect key="frame" x="20" y="623" width="374" height="185"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </mutableString>
+                                <string key="text">Combating depression can be difficult but a few tips that may help individuals cope are exercise, participating in social activities, practicing relaxation techniques, eating nutritious foods, and, in more serious cases, talking to trained professionals who can assist with recovery. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.066349387169999996" green="0.1249617413" blue="0.24591171740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="depression waterfall" translatesAutoresizingMaskIntoConstraints="NO" id="F9D-c2-w7b">
+                                <rect key="frame" x="230" y="204" width="178" height="360"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jhu-5T-8pk"/>
                         <color key="backgroundColor" red="0.69800421729999995" green="0.77819114919999999" blue="0.72184292920000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -469,7 +535,7 @@
                                 <color key="textColor" red="0.066349387169999996" green="0.1249617413" blue="0.24591171740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6O0-l7-IjT">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="anxiety" translatesAutoresizingMaskIntoConstraints="NO" id="6O0-l7-IjT">
                                 <rect key="frame" x="20" y="351" width="374" height="295"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -541,20 +607,20 @@ Burnout is specific to one’s occupation and should not be used outside of desc
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p2g-7z-R9j">
-                                <rect key="frame" x="20" y="184" width="151" height="225"/>
+                                <rect key="frame" x="20" y="184" width="163" height="209"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Energy depletion/exhaustion, negative feelings and decreased focus on one's job, as well as reduced professional productivity.
+                                <string key="text">-Energy depletion/exhaustion -negative feelings      -decreased focus on one's job      -reduced professional productivity.
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.066349387169999996" green="0.1249617413" blue="0.24591171740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gQ5-tp-SBf">
-                                <rect key="frame" x="191" y="205" width="203" height="204"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="burnout2" translatesAutoresizingMaskIntoConstraints="NO" id="gQ5-tp-SBf">
+                                <rect key="frame" x="191" y="184" width="209" height="225"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Fj-2T-yuy">
-                                <rect key="frame" x="20" y="584" width="374" height="204"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="burnout-1" translatesAutoresizingMaskIntoConstraints="NO" id="8Fj-2T-yuy">
+                                <rect key="frame" x="36" y="577" width="342" height="231"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -626,12 +692,12 @@ setting very difficult goals and getting disappointed when they’re not complet
                                 <color key="textColor" red="0.066349387169999996" green="0.1249617413" blue="0.24591171740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZHf-0v-gwF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imposter syndrome" translatesAutoresizingMaskIntoConstraints="NO" id="ZHf-0v-gwF">
                                 <rect key="frame" x="221" y="245" width="173" height="308"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9sR-7n-rhb">
-                                <rect key="frame" x="20" y="655" width="374" height="144"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imposter syndrome 2" translatesAutoresizingMaskIntoConstraints="NO" id="9sR-7n-rhb">
+                                <rect key="frame" x="58" y="651" width="308" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -690,7 +756,7 @@ setting very difficult goals and getting disappointed when they’re not complet
                                 <color key="textColor" red="0.066349387169999996" green="0.1249617413" blue="0.24591171740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ooo-u2-IY0">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="peer pressure" translatesAutoresizingMaskIntoConstraints="NO" id="ooo-u2-IY0">
                                 <rect key="frame" x="20" y="333" width="374" height="295"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -706,11 +772,19 @@ setting very difficult goals and getting disappointed when they’re not complet
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="BgV-HQ-TSe"/>
-        <segue reference="w1l-E6-cfk"/>
+        <segue reference="u9u-2n-Fbs"/>
+        <segue reference="A53-ea-8e7"/>
+        <segue reference="qil-2B-fy9"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG_2376-removebg-preview" width="437" height="571"/>
+        <image name="anxiety" width="259" height="194"/>
+        <image name="burnout-1" width="473" height="432"/>
+        <image name="burnout2" width="183" height="275"/>
+        <image name="depression waterfall" width="168" height="300"/>
+        <image name="imposter syndrome" width="900" height="1600"/>
+        <image name="imposter syndrome 2" width="473" height="355"/>
+        <image name="peer pressure" width="300" height="300"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

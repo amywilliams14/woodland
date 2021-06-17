@@ -24,6 +24,7 @@
 		22DFB7DA267939780012AB41 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFB7D9267939780012AB41 /* HomePageViewController.swift */; };
 		22DFB7DC26793AB00012AB41 /* InfoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFB7DB26793AB00012AB41 /* InfoPageViewController.swift */; };
 		22DFB7DE26793CE40012AB41 /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFB7DD26793CE40012AB41 /* DisclaimerViewController.swift */; };
+		22DFB7E0267BA60C0012AB41 /* SelfQuizzesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFB7DF267BA60C0012AB41 /* SelfQuizzesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		22DFB7D9267939780012AB41 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		22DFB7DB26793AB00012AB41 /* InfoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPageViewController.swift; sourceTree = "<group>"; };
 		22DFB7DD26793CE40012AB41 /* DisclaimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
+		22DFB7DF267BA60C0012AB41 /* SelfQuizzesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfQuizzesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				1899DA23267A4DB1001F8A4C /* GaslightingViewController.swift */,
 				1899DA25267A4EE4001F8A4C /* GeneralTipsViewController.swift */,
 				1899DA27267A7457001F8A4C /* ToDoViewController.swift */,
+				22DFB7DF267BA60C0012AB41 /* SelfQuizzesViewController.swift */,
 			);
 			path = woodland;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				22DFB7CD267934C60012AB41 /* woodland.xcdatamodeld in Sources */,
 				22DFB7DE26793CE40012AB41 /* DisclaimerViewController.swift in Sources */,
 				1899DA20267A4D57001F8A4C /* BurnoutViewController.swift in Sources */,
+				22DFB7E0267BA60C0012AB41 /* SelfQuizzesViewController.swift in Sources */,
 				22DFB7C3267934C60012AB41 /* AppDelegate.swift in Sources */,
 				1899DA28267A7457001F8A4C /* ToDoViewController.swift in Sources */,
 				1899DA22267A4D6F001F8A4C /* ImposterSyndromeViewController.swift in Sources */,
