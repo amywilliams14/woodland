@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inspirational Quote" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBg-W4-klj">
-                                <rect key="frame" x="20" y="722" width="374" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inspirational Quote" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBg-W4-klj">
+                                <rect key="frame" x="20" y="703" width="374" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.071671061219999999" green="0.12043400849999999" blue="0.24707266689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -773,7 +773,7 @@ setting very difficult goals and getting disappointed when they’re not complet
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="u9u-2n-Fbs"/>
-        <segue reference="A53-ea-8e7"/>
+        <segue reference="PA5-d1-Ylm"/>
         <segue reference="qil-2B-fy9"/>
     </inferredMetricsTieBreakers>
     <resources>
