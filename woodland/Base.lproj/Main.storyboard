@@ -89,17 +89,15 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="agb-Ky-6VK">
                                                 <rect key="frame" x="20" y="3770" width="374" height="150"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKw-8K-0Yp">
-                                                        <rect key="frame" x="314" y="70" width="60" height="80"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fe9-DQ-6PM">
+                                                        <rect key="frame" x="0.0" y="8" width="374" height="116"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="48"/>
-                                                        <state key="normal" title="⌂">
-                                                            <color key="titleColor" red="0.047058823530000002" green="0.12549019610000001" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                        </state>
-                                                        <connections>
-                                                            <segue destination="ACJ-aR-oob" kind="show" id="hey-IC-sGc"/>
-                                                        </connections>
-                                                    </button>
+                                                        <string key="text">20) Go ahead and yawn. Studies suggest that yawning helps cool the brain and improves alertness and mental efficiency.
+</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <color key="textColor" red="0.066349387169999996" green="0.1249617413" blue="0.24591171740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.78315472600000002" green="0.77870243790000004" blue="0.68626034260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
@@ -143,7 +141,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9M-Ko-mrB">
                                                 <rect key="frame" x="20" y="859" width="374" height="327"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">5) Drop the caffeine. I know as a teen, student, or just human in general, we all face our own problems and stresses. Sometimes that little caffeine boost from our favorite energy drinks or coffee do just the trick, but in consistent amounts, other problems arise. For some people, caffeine seems ineffectual, but for others it can lead to increased stress and anxiety levels. If you are potentially someone sensitive to highly caffeinated products, try avoiding them. But if you feel like you still need your fix, then try replacements. For example, teas, matcha, or even being surrounded by the scent of coffee beans.</mutableString>
+                                                <string key="text">5) Drop the caffeine. I know as a teen, student, or just human in general, we all face our own problems and stresses. Sometimes that little caffeine boost from our favorite energy drinks or coffee do just the trick, but in consistent amounts, other problems arise. For some people, caffeine seems ineffectual, but for others it can lead to increased stress and anxiety levels. If you are potentially someone sensitive to highly caffeinated products, try avoiding them. But if you feel like you still need your fix, then try replacements. For example, teas, matcha, or even being surrounded by the scent of coffee beans.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="textColor" red="0.066349387169999996" green="0.1249617413" blue="0.24591171740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -235,17 +233,8 @@
                                                 <color key="textColor" red="0.066349387169999996" green="0.1249617413" blue="0.24591171740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxF-zZ-G1T">
-                                                <rect key="frame" x="20" y="3346" width="374" height="116"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">17) Feeling stressed? Smile. It may not be the easiest thing to do, but smiling can help to lower your heart rate and calm you down.
-</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <color key="textColor" red="0.066349387169999996" green="0.1249617413" blue="0.24591171740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5J-gg-IRr">
-                                                <rect key="frame" x="20" y="3470" width="374" height="135"/>
+                                                <rect key="frame" x="20" y="3531" width="374" height="135"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">18) Take 30 minutes to go for a walk in nature - it could be a stroll through a park, or a hike in the woods. Research shows that being in nature can increase energy levels, reduce depression and boost well-being.
 </string>
@@ -254,7 +243,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cto-7f-vBN">
-                                                <rect key="frame" x="20" y="3613" width="374" height="116"/>
+                                                <rect key="frame" x="20" y="3674" width="374" height="116"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">19) Do your best to enjoy 15 minutes of sunshine, and apply sunscreen. Sunlight synthesizes Vitamin D, which experts believe is a mood elevator.
 </string>
@@ -271,15 +260,6 @@
                                                 <color key="textColor" red="0.066349387169999996" green="0.1249617413" blue="0.24591171740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fe9-DQ-6PM">
-                                                <rect key="frame" x="20" y="3726" width="374" height="116"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">20) Go ahead and yawn. Studies suggest that yawning helps cool the brain and improves alertness and mental efficiency.
-</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <color key="textColor" red="0.066349387169999996" green="0.1249617413" blue="0.24591171740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TIPSimage1" translatesAutoresizingMaskIntoConstraints="NO" id="tx4-7E-7sY">
                                                 <rect key="frame" x="20" y="1194" width="374" height="261"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -289,9 +269,29 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TIPSImage3" translatesAutoresizingMaskIntoConstraints="NO" id="Zbw-EJ-SSN">
-                                                <rect key="frame" x="20" y="3131" width="374" height="207"/>
+                                                <rect key="frame" x="20" y="3131" width="374" height="257"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKw-8K-0Yp">
+                                                <rect key="frame" x="346" y="3850" width="60" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                                <state key="normal" title="⌂">
+                                                    <color key="titleColor" red="0.047058823530000002" green="0.12549019610000001" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="ACJ-aR-oob" kind="show" id="hey-IC-sGc"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxF-zZ-G1T">
+                                                <rect key="frame" x="20" y="3407" width="374" height="116"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">17) Feeling stressed? Smile. It may not be the easiest thing to do, but smiling can help to lower your heart rate and calm you down.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <color key="textColor" red="0.066349387169999996" green="0.1249617413" blue="0.24591171740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.78315472600000002" green="0.77870243790000004" blue="0.68626034260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -328,7 +328,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G1n-Kk-5lW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="45" y="1801"/>
+            <point key="canvasLocation" x="44.927536231884062" y="1800.6696428571427"/>
         </scene>
         <!--Self Quizzes View Controller-->
         <scene sceneID="jWi-sb-qcE">
